@@ -1,0 +1,25 @@
+A Caesar Cipher is one of the oldest encryption techniques. It works by shifting every character in a message by a fixed number of places. This version encrypts letters AND symbols — spaces, punctuation, digits, and special characters are all shifted. Anyone who knows the Shift Key can reverse the process and read the original message.
+
+[SECTION] 🔒  Encrypting a Message
+1.  Type your message in the PLAIN TEXT box on the left.
+2.  Set a Shift Key using the up/down arrows (e.g. 3).
+3.  Click ENCRYPT → — your scrambled message appears on the right.
+4.  Click 📋 Copy to copy the cypher text to your clipboard.
+5.  Send the cypher text and the Shift Key to your recipient.
+
+[SECTION] 🔓  Decrypting a Message
+1.  Click CLEAR to reset both fields.
+2.  Paste or type the cypher text into the CYPHER TEXT box.
+3.  Set the Shift Key to the same number used when encrypting.
+4.  Click ← DECRYPT — the original message appears on the left.
+
+[SECTION] 🔑  About the Shift Key
+The Shift Key is a number between -25 and 25.
+Letters shift within their own alphabet (a–z or A–Z).
+[EXAMPLE] Example with Shift Key 3:   A → D     B → E     Z → C
+Symbols, digits, and spaces shift within the printable ASCII pool.
+[EXAMPLE] Example with Shift Key 3:   ! → $     ? → B     space → #
+Both sender and recipient must use the same Shift Key.
+
+[SECTION] ✕  Clearing & Starting Over
+Click CLEAR to wipe both text fields and reset the Shift Key to 3.
